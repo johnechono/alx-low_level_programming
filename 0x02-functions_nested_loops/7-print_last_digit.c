@@ -3,7 +3,7 @@
 /**
  * print_last_digit - function that prints last digit
  * @i: parameter for the function
- * Return: value of the difit
+ * Return: value of the digit
  */
 
 int print_last_digit(int i)
@@ -13,6 +13,7 @@ int print_last_digit(int i)
 	k = i % 10;
 	if (i < 0)
 		k = -k;
+	_putchar(k + '0');
 	return (k);
 
 
