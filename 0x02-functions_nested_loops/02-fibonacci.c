@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * main - Prints th first 52 fibonacci sequence
- * Return: Nothing
+ * main - Prints the first 50 fibonacci sequence
+ * Return: 0
  */
 
 int main(void)
 {
+
 	int i = 0;
 	long j = 1, k = 2;
 
@@ -17,8 +18,7 @@ int main(void)
 	printf(", %ld", k);
 	else
 	{
-	k <= j;
-	j = k - j;
+	i = k - j;
 	printf(", %ld", k);
 	}
 	++i;
