@@ -115,5 +115,5 @@
 
 ----
 
-## :writing_hand: AUTHOUR:
-[KIPRONOH VINCENT](https://github.com/KipronohVincent)
+## :writing_hand: AUTHOR:
+[Echono John]
