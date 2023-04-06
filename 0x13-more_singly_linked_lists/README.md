@@ -116,4 +116,4 @@
 ----
 
 ## :writing_hand: AUTHOR:
-[Echono John]
+[Echono John Inalegwu]
