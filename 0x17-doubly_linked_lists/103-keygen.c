@@ -35,17 +35,17 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 			temp = argv[1][j];
 	}
 
-	srand(tmp ^ 14);
+	srand(temp ^ 14);
 	password[3] = codex[rand() & 63];
 
 	temp = 0;
 	for (j = 0; j < len; j++)
 		temp += (argv[1][j] * argv[1][j]);
-	password[4] = codex[(temp ^ 239) & 63]
+	password[4] = codex[(temp ^ 239) & 63];
 	for (j = 0; j < argv[1][0]; j++)
 		temp = rand();
-	password[5] = codex[(tmp ^ 229) & 63];
+	password[5] = codex[(temp ^ 229) & 63];
 	password[6] = '\0';
 	printf("%s", password);
 	return (0);
-};
+}
