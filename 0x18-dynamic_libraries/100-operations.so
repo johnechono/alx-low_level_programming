@@ -1,0 +1,59 @@
+/**
+ * add - sum a and b
+ * @a: 1st variable
+ * @b: 2nd variable
+ * Return: the sum
+ */
+
+int add(int a, int b)
+{
+	return (a + b);
+}
+
+/**
+ * sub - will substract b from a
+ * @a: 1st variable
+ * @b: 2nd variable
+ * Return: the difference
+ */
+
+int sub(int a, int b)
+{
+	return (a - b);
+}
+
+/**
+ * mul - will miltiply a and b
+ * @a: 1st variable
+ * @b: 2nd variable
+ * Return: the product
+ */
+
+int mul(int a, int b)
+{
+	return (a * b);
+}
+
+/**
+ * div - will divide a and b
+ * @a: 1st variable
+ * @b: 2nd variable
+ * Return: the quotient
+ */
+
+int div(int a, int b)
+{
+	return (a / b);
+}
+
+/**
+ * mod - will check for the remainder
+ * @a: 1st variable
+ * @b: 2nd variable
+ * Return: the remainder
+ */
+
+int mod(int a, int b)
+{
+	return (a % b);
+}
